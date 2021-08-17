@@ -4,20 +4,23 @@ nav div{
 }
 nav {
     box-shadow: 0px 5px 10px lightskyblue;
+    background-color: #24afff;
+    color: white;
 }
 nav a{
     padding: 15px;
     margin: 0px 18px;
-    font-size: 18px;
+    font-size: 120%;
+    color: white;
     text-decoration: none;
     float: right;
     transition: 0.05s;
 }
 nav a:hover{
-    background-color: yellow;
+    background-color: white;
     border-radius: 10px;
     font-weight: 700;
-    color: red;
+    color: #24afff;
 }
 nav h2{
     margin: 2px 18px;
@@ -27,8 +30,10 @@ nav h2{
 /*-------My Profile-----------*/
 #myprofile{
     padding: 20px 0px;
+    background-color: #24afff;
+    color: white;
 }
-#myprofile .bg{
+/* #myprofile .bg{
     background-color: yellow;
     height: 250px;
     width: 24%;
@@ -37,7 +42,7 @@ nav h2{
     border-radius: 10px;
     z-index: -1;
     
-}
+} */
 
 #myprofile div{
     margin: auto 0px;
@@ -75,7 +80,7 @@ nav h2{
  /*--------Skills-----------*/
 
  #skill div{
-     padding:15px;
+     padding:10px;
  }
 
  #skills .row:last-child .col:last-child img{
