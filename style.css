@@ -29,7 +29,7 @@ nav h2{
 
 /*-------My Profile-----------*/
 #myprofile{
-    padding: 20px 0px;
+    padding: 0px 0px;
     background-color: #24afff;
     color: white;
 }
@@ -96,3 +96,29 @@ nav h2{
     transform: scale(1.4);
 }
 
+/*----------Projects-------------*/
+
+iframe{
+    height: 80%;
+    width: 100%;
+    padding: 5% auto;
+    margin: 10% auto;
+}
+
+#project .row{
+    padding:2%;
+}
+
+/*---------Footer-----------*/
+
+footer{
+    background-color: rgb(196, 230, 72);
+    color: white;
+    font-size: 20px;
+    padding: 1%;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+}
